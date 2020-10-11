@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Javascript DOM Tutoria</title>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="page-banner">
+        <h1 class="title">Bookorama</h1>
+        <p>Books for Ninjas</p>
+        <form action="" id="search-books">
+          <input type="text" placeholder="Search book">
+        </form>
+      </div>
+    </header>
+    <div id="book-list">
+      <h2 class="title">Books to Read</h2>
+      <ul>
+        <li>
+          <span class="name">Name of the wind</span> 
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The wise man's fear</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The wise fear</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The wise</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The wise man's fear</span>
+          <span class="delete">delete</span>
+        </li>
+      </ul>
+    </div>
+    <form  id="add-book">
+      <input type="checkbox" id="hide">
+      <label for="hide">Hide all books</label>
+      <input type="text" placeholder="Add a book...">
+      <button>Add</button>
+    </form>
+    <div id="tabbed-content">
+      <ul class="tabs">
+        <li data-target="#about" class="active">About</li>
+        <li data-target="#contact">Contact</li>
+      </ul>
+      <div class="panel active" id="about">
+        <p>Content for about tab...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque debitis ex repellat corrupti dolorem non dolore commodi, sequi, nobis reiciendis laboriosam harum ullam culpa facilis voluptate, accusantium perferendis corporis iusto.</p>
+      </div>
+      <div class="panel" id="contact">
+        <p>Content for content tab...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque debitis ex repellat corrupti dolorem non dolore commodi, sequi, nobis reiciendis laboriosam harum ullam culpa facilis voluptate, accusantium perferendis corporis iusto.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
